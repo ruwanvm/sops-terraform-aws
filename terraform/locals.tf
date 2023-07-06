@@ -1,5 +1,5 @@
 locals {
-  my_aws_user = "arn:aws:iam::640753244498:user/iam_user_name"
+  my_aws_user = "arn:aws:iam::096281385844:user/docker-push-user"
 }
 
 locals {

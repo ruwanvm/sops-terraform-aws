@@ -1,8 +1,8 @@
 creation_rules:
     - path_regex: .*config/test/.*
-      kms: arn:aws:kms:eu-central-1:640753244498:key/f9024130-ba9c-458d-ba4a-ca05b06f6f2c
+      kms: arn:aws:kms:eu-central-1:096281385844:key/65c0f357-125e-4faa-baf5-e291530678e6
       aws_profile: KMS_TEST_USER
 
     - path_regex: .*config/prod/.*
-      kms: arn:aws:kms:eu-central-1:640753244498:key/02b01f77-35ac-4f24-a23c-87684b6cc01b
+      kms: arn:aws:kms:eu-central-1:096281385844:key/9ef0f96e-d7e0-43cb-a67f-a1d129ff45a9
       aws_profile: KMS_PROD_USER
