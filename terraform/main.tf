@@ -5,8 +5,8 @@ resource "aws_iam_user" "user" {
 }
 
 resource "aws_iam_access_key" "access_key" {
-  for_each   = local.users
-  user       = aws_iam_user.user[each.key].name
+  for_each = local.users
+  user     = aws_iam_user.user[each.key].name
 }
 
 resource "aws_iam_user_policy" "policy" {

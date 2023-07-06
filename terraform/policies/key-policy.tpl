@@ -20,7 +20,7 @@
       "Sid": "Allow access for Key Administrators",
       "Effect": "Allow",
       "Principal": {
-        "AWS": ${jsonencode(key_admins)}
+        "AWS": "*"
       },
       "Action": [
         "kms:Create*",
